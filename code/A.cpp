@@ -5,7 +5,10 @@
 using namespace std;
 
 int main() {
+  int b, g;
+  scanf("%d%d", &b, &g);
   
+  printf("%s", (b > g ? "Bat" : "Glove"));
   
   return 0;
 }
